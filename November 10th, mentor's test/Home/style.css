@@ -1,0 +1,39 @@
+nav{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    background-color: gray;
+    gap: 20px;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    align-items: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.photo{
+    display: flex;
+    background-image: url(building.jpeg);
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: grey;
+    height: 40px;
+    color: white;
+}

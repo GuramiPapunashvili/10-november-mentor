@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label for="amount_loaned">How big of a loan would you like: </label>
+        <input id="amount_loaned" type="text"> <br>
+        <label for="months">Over what period of time will you pay this loan(in months): </label>
+        <input id="months" type="number">
+        <input type="submit">
+    </form>
+    <h2>The amount you will have to pay in total: </h2>
+    <p id="total"></p>
+    <h2>The amount you will have to pay every month: </h2>
+    <p id="per_month"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

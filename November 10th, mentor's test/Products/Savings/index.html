@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Savings</h1>
+    </nav>
+
+    <div>
+        <div id="amount">
+            <p>Your current amount: </p>
+            <p id="money_counter">0</p>
+        </div>
+        <div id="expenses">
+            <p>Your expenses this month has been: </p>
+            <p id="money_away">0</p>
+        </div>
+        <div id="Income">
+            <p>Your income this month has been: </p>
+            <p id="Money_in">0</p>
+        </div>
+    </div>
+    <form>
+        <label for="deposit">Put the amount you'd like to deposit</label>
+        <input id="deposit" type="number"> <br>
+        <label for="withdraw">Put the amount you'd like to withdraw</label>
+        <input id="withdraw" type="number"> <br>
+        <input type="submit">
+        <select id="options">
+            <option value="Withdraw">Withdraw</option>
+            <option value="Deposit">Deposit</option>
+        </select>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
